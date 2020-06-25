@@ -47,18 +47,7 @@ int same(node *a)
             up[l++] = i;
     return l;
 }
-/*
-我们用数字表示牌面
-1-同花顺
-2-四条
-3-葫芦
-4-同花
-5-顺子
-6-三条
-7-两对
-8-一对
-9-单牌
-*/
+
 int judge(node *a)
 {
     int flag1 = 0;
